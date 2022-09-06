@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(248, 229, 232);
+}
+.hbd {
+  position: absolute;
+  padding: 100px;
+  margin-left: 160px;
+  font-size: 100px;
+  color: rgb(111, 1, 246);
+  font-family: "Dancing Script", cursive;
+}
+.main {
+  background-color: rgb(207, 163, 249);
+  padding: 50px 70px 50px 70px;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+}
+.text {
+  padding: 60px;
+  color: rgb(213, 0, 170);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+.video {
+  padding: 50px 30px 50px 50px;
+}
+
+.end {
+  font-size: 100px;
+  color: yellowgreen;
+  font-family: "Dancing Script", cursive;
+  padding: 200px;
+  text-align: center;
+}
+
+/*button*/
+
+/* Animation property */
+a {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+/*body {
+  background: #000;
+}*/
+
+a {
+  position: absolute;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+
+  height: 3em;
+  width: 6em;
+
+  background: #444;
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid rgb(255, 0, 187);
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+  margin-top: 2290px;
+  text-align: center;
+}
